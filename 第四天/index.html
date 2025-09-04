@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap5 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>我的第一个 Bootstrap 页面</h1>
+  <p>这是一个响应式页面，重置浏览器大小查看效果!</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>第一列</h3>
+      <p>菜鸟教程</p>
+      <p>学的不仅是技术，更是梦想！！！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>第二列</h3>
+      <p>菜鸟教程</p>
+      <p>学的不仅是技术，更是梦想！！！</p>
+    </div>
+
+<div class="row">
+    <div class="col-sm-3">.col-sm-3</div>
+    <div class="col-sm-3">.col-sm-3</div>
+    <div class="col-sm-3">.col-sm-3</div>
+    <div class="col-sm-3">.col-sm-3</div>
+</div>
+
+<div class="row">
+  <div class="col">6</div>
+  <div class="col">6</div>
+  <div class="col">6</div>
+</div>
+</div>
+</div>
+
+<div class="container mt-3">
+  <h2>基础表格</h2>
+  <p>.table 类来设置基础表格的样式:</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container mt-3">
+  <h2>堆叠表单</h2>
+	<form action="">
+	  <div class="mb-3 mt-3">
+		<label for="email" class="form-label">Email:</label>
+		<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+	  </div>
+	  <div class="mb-3">
+		<label for="pwd" class="form-label">Password:</label>
+		<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+	  </div>
+	  <div class="form-check mb-3">
+		<label class="form-check-label">
+		  <input class="form-check-input" type="checkbox" name="remember">666
+		</label>
+	  </div>
+	  <div class="md-3">
+		  <label for="grade" class="form-label">年级</label>
+		  <select class="form-label">
+			  <option value="">1</option>
+			  <option value="">2</option>
+			  <option value=""></option>
+		  </select>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+<div>
+	 <form action="/action_page.php">
+	    <div class="form-check">
+	      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+	      <label class="form-check-label" for="radio1">Option 1</label>
+	    </div>
+	    <div class="form-check">
+	      <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+	      <label class="form-check-label" for="radio2">Option 2</label>
+	    </div>
+	    <div class="form-check">
+	      <input type="radio" class="form-check-input" disabled>
+	      <label class="form-check-label">Option 3</label>
+	    </div>
+	    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+	  </form>
+	
+</div>
+</body>
+</html>
